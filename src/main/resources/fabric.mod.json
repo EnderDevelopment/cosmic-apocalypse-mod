@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cosmicapocalypsemod",
+  "version": "1.0.0",
+  "name": "Cosmic Apocalypse Mod",
+  "description": "A mod that creates a cosmic horror apocalypse event.",
+  "authors": ["sara30montes"],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/sara30montes/cosmicapocalypsemod"
+  },
+  "license": "MIT",
+  "icon": "assets/cosmicapocalypsemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sara30montes.cosmicapocalypsemod.MainMod"
+    ]
+  },
+  "mixins": [
+    "cosmicapocalypsemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.4",
+    "fabric-api": "*",
+    "geckolib": "*"
+  }
+}
